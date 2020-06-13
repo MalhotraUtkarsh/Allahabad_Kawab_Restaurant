@@ -480,11 +480,11 @@ section {
 }
 
 .about_slideshow_01 img{
-    width: 80%;
+    width: 70%;
     margin:  auto;
     height: auto;
     position: absolute;
-    left: 10%;
+    left: 16%;
     top: 9%;
     max-height: 100%;
 
