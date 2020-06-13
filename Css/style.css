@@ -268,6 +268,8 @@ section {
     position: absolute;
     top: 0%;
     z-index: 12;
+    background-size: cover;
+    object-fit: cover;
 
 }
 
@@ -299,16 +301,16 @@ section {
     
     width: 60%;
     height: 40%;
-    background: url('Images/design.png');
+    background: url('Images/logo.png');
     background-repeat: no-repeat;
     background-size: contain;
     /* margin: auto; */
     background-position: center;
-    transform: rotate(-10deg);
+    /* transform: rotate(-10deg); */
     position: absolute;
     top: 15%;
     left: 20%;
-    z-index: 1200;
+    z-index: 2000;
 
     /* border: 2px solid red; */
 
@@ -1388,7 +1390,7 @@ footer {
 
 .navChange {
 
-    background-color: white;
+    background-color:white;
     transition:  all 1s;
     
 }
@@ -1531,7 +1533,7 @@ footer {
     
     width: 40%;
     height: 30%;
-    background: url('Images/design.png');
+    background: url('Images/logo.png');
     background-repeat: no-repeat;
     background-size: contain;
     /* margin: auto; */
