@@ -1185,8 +1185,45 @@ margin-top: 4%;
     font-size: 0.8em;
     color: #4b4747;
     padding: 3% 4%;
-
-
+}
+.contactform_messagebox{
+    display:inline-block;
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+    background: #2C2A2A;
+    border: none;
+    height: 50px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #4b4747;
+    padding: 3% 4%;
+}
+.contactform_submitbutton input{
+    display: inline-block;
+    width: 70%;
+    /* height: 30px; */
+    font-size: 20px;
+    background: transparent;
+    font-family: "Cabin", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 17px;
+    color: #bfa760;
+    border: 2px solid #bfa760;
+    padding: 3% 2%;
+    margin-bottom: 2%;
+    margin-top: 8%;
+}
+.contactform_submitbutton input:hover{
+    color: white;
+    background:#bfa760;
+    border: 1px solid #bfa760;
+    transition: all 1s ;
+    width: 71%;
+    cursor: pointer;
 }
 /* resize: none; */
 
@@ -1956,7 +1993,38 @@ margin-left: 2%;
     width: 38%;
 
 }
-
+.contactform_messagebox{
+    display: block;
+    width: 38%;
+    margin-left: 50%;
+    margin-top: -26%;
+}
+.contactform_submitbutton input{
+    display: inline-block;
+    width: 25%;
+    /* height: 30px; */
+    font-size: 20px;
+    background: transparent;
+    font-family: "Cabin", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 17px;
+    color: #bfa760;
+    border: 2px solid #bfa760;
+    padding: 2% 2%;
+    margin-bottom: 2%;
+    margin-top: 8%;
+    margin-left: 45%;
+}
+.contactform_submitbutton input:hover{
+    color: white;
+    background:#bfa760;
+    border: 1px solid #bfa760;
+    transition: all 1s ;
+    width: 27%;
+    cursor: pointer;
+}
 .upperform input  { 
 
     left: -25%;
